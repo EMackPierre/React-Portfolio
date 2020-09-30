@@ -91,9 +91,9 @@ export default class About extends React.Component {
 						</div>
 						<div className="progress mb-3">
 							<div
-								className="progress-bar fill-90-bar"
+								className="progress-bar fill-70-bar"
 								role="progressbar"
-								style={{ width: 90 + "%" }}
+								style={{ width: 70 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								Javascript
@@ -104,16 +104,6 @@ export default class About extends React.Component {
 								className="progress-bar fill-60-bar"
 								role="progressbar"
 								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								PHP
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-80-bar"
-								role="progressbar"
-								style={{ width: 80 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								ReactJS
@@ -136,17 +126,27 @@ export default class About extends React.Component {
 								style={{ width: 60 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								SASS
+								MySQL-DB
 							</div>
 						</div>
 						<div className="progress mb-3">
 							<div
-								className="progress-bar fill-80-bar"
+								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 80 + "%" }}
+								style={{ width: 60 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								VanillaJS
+								MongoDB
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 60 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								Express
 							</div>
 						</div>
 						<div className="progress mb-3">
